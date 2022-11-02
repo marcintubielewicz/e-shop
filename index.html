@@ -1,325 +1,251 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="utf-8" />
-    <title>e-shop</title>
-    <meta name="description" content="metatags to describe later" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
-  </head>
 
-  <body>
-    <div class="header">
-      <header>
-        <div class="px-3 py-2 text-bg-dark">
-          <div class="container">
-            <div
-              class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
-            >
-              <a
-                href="/"
-                class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
-              >
-                <svg
-                  class="bi me-2"
-                  width="40"
-                  height="32"
-                  role="img"
-                  aria-label="Bootstrap"
-                >
-                  <use xlink:href="#bootstrap" />
-                </svg>
-              </a>
-              <ul
-                class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small"
-              >
-                <li>
-                  <a
-                    href="https://marcintubielewicz.github.io/e-shop/index.html"
-                    class="nav-link text-secondary"
-                  >
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                      <use xlink:href="#home" />
-                    </svg>
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://marcintubielewicz.github.io/e-shop/subpages/product_categories.html"
-                    class="nav-link text-white"
-                  >
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                      <use xlink:href="#speedometer2" />
-                    </svg>
-                    Products
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://marcintubielewicz.github.io/e-shop/subpages/shopping_cart.html"
-                    class="nav-link text-white"
-                  >
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                      <use xlink:href="#grid" />
-                    </svg>
-                    Shopping cart
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://marcintubielewicz.github.io/e-shop/subpages/contact_us.html"
-                    class="nav-link text-white"
-                  >
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                      <use xlink:href="#people-circle" />
-                    </svg>
-                    Contact us
-                  </a>
-                </li>
-              </ul>
-            </div>
+<head>
+  <meta charset="utf-8" />
+  <title>e-shop</title>
+  <meta name="description" content="metatags to describe later" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+</head>
+
+<body>
+  <div class="header">
+    <header>
+      <div class="px-3 py-2 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                <use xlink:href="#bootstrap" />
+              </svg>
+            </a>
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+              <li>
+                <a href="https://marcintubielewicz.github.io/e-shop/index.html" class="nav-link text-secondary">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <use xlink:href="#home" />
+                  </svg>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="https://marcintubielewicz.github.io/e-shop/subpages/product_categories.html"
+                  class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <use xlink:href="#products" />
+                  </svg>
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="https://marcintubielewicz.github.io/e-shop/subpages/shopping_cart.html"
+                  class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <use xlink:href="#cart" />
+                  </svg>
+                  Shopping cart
+                </a>
+              </li>
+              <li>
+                <a href="https://marcintubielewicz.github.io/e-shop/subpages/contact_us.html"
+                  class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <use xlink:href="#contact_us" />
+                  </svg>
+                  Contact us
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="px-3 py-2 border-bottom mb-3">
-          <div class="container d-flex flex-wrap justify-content-center">
-            <form
-              class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto"
-              role="search"
-            >
-              <input
-                type="search"
-                class="form-control"
-                placeholder="Search..."
-                aria-label="Search"
-              />
-            </form>
-            <div class="text-end">
-              <a
-                class="text-decoration-none"
-                href="https://marcintubielewicz.github.io/e-shop/subpages/login_form.html"
-              >
-                <button type="button" class="btn btn-light text-dark me-2">
-                  Login
-                </button>
-              </a>
-              <a
-                class="text-decoration-none text text-white"
-                href="https://marcintubielewicz.github.io/e-shop/subpages/register_form.html"
-              >
-                <button type="button" class="btn btn-primary">Sign-up</button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
-    </div>
-
-    <div class="container">
-      <h1 class="header text-center">Welcome to our web service</h1>
-      <p class="text-center">Our staff will be happy to help you.</p>
-
-      <div class="container marketing">
-        <div class="row">
-          <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 140x140"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-            </svg>
-
-            <h2 class="fw-normal">Karol Adrych</h2>
-            <p>bdx42485</p>
-          </div>
-          <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 140x140"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-            </svg>
-
-            <h2 class="fw-normal">Leszek Szyburski</h2>
-            <p>bdx44608</p>
-          </div>
-          <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 140x140"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-            </svg>
-
-            <h2 class="fw-normal">Marcin Tubielewicz</h2>
-            <p>bdx44202</p>
-          </div>
-        </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">
-              First featurette heading.
-              <span class="text-muted">It’ll blow your mind.</span>
-            </h2>
-            <p class="lead">
-              Some great placeholder content for the first featurette here.
-              Imagine some exciting prose here.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-            </svg>
-          </div>
-        </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">
-              Oh yeah, it’s that good.
-              <span class="text-muted">See for yourself.</span>
-            </h2>
-            <p class="lead">
-              Another featurette? Of course. More placeholder content here to
-              give you an idea of how this layout would work with some actual
-              real-world content in place.
-            </p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-            </svg>
-          </div>
-        </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">
-              And lastly, this one. <span class="text-muted">Checkmate.</span>
-            </h2>
-            <p class="lead">
-              And yes, this is the last block of representative placeholder
-              content. Again, not really intended to be actually read, simply
-              here to give you a better view of what this would look like with
-              some actual content. Your content.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-            </svg>
-          </div>
-        </div>
-
-        <hr class="featurette-divider" />
       </div>
+      <div class="px-3 py-2 border-bottom mb-3">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search" />
+          </form>
+          <div class="text-end">
+            <a class="text-decoration-none" href="https://marcintubielewicz.github.io/e-shop/subpages/login_form.html">
+              <button type="button" class="btn btn-light text-dark me-2">
+                Login
+              </button>
+            </a>
+            <a class="text-decoration-none text text-white"
+              href="https://marcintubielewicz.github.io/e-shop/subpages/register_form.html">
+              <button type="button" class="btn btn-primary">Sign-up</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <div class="container">
+    <h1 class="header text-center">Welcome to our web service</h1>
+    <p class="text-center">Our staff will be happy to help you.</p>
+
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" />
+            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
+
+          <h2 class="fw-normal">Karol Adrych</h2>
+          <p>bdx42485</p>
+        </div>
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" />
+            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
+
+          <h2 class="fw-normal">Leszek Szyburski</h2>
+          <p>bdx44608</p>
+        </div>
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" />
+            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
+
+          <h2 class="fw-normal">Marcin Tubielewicz</h2>
+          <p>bdx44202</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Header with some words
+            <span class="text-muted">keyword</span>
+          </h2>
+          <p class="lead">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" />
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Header with some words
+            <span class="text-muted">keyword.</span>
+          </h2>
+          <p class="lead">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" />
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Header with some words <span class="text-muted">keyword</span>
+          </h2>
+          <p class="lead">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" />
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
     </div>
-    <div class="footer">
-      <footer class="py-3 my-4">
-        <p class="text-center text-muted">
-          &copy; 2022 WSB Bydgoszcz: bdx42485, bdx44608, bdx44202
-        </p>
-      </footer>
-    </div>
-    <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
-    <script>
-      var triggerEl = document.querySelector("#navId a");
-      bootstrap.Tab.getInstance(triggerEl).show(); // Select tab by name
-    </script>
+  </div>
+  <div class="footer">
+    <footer class="py-3 my-4">
+      <p class="text-center text-muted">
+        &copy; 2022 WSB Bydgoszcz: bdx42485, bdx44608, bdx44202
+      </p>
+    </footer>
+  </div>
+  <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
+  <script>
+    var triggerEl = document.querySelector("#navId a");
+    bootstrap.Tab.getInstance(triggerEl).show(); // Select tab by name
+  </script>
 
-    <!-- Add your site or application content here -->
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-      window.ga = function () {
-        ga.q.push(arguments);
-      };
-      ga.q = [];
-      ga.l = +new Date();
-      ga("create", "UA-XXXXX-Y", "auto");
-      ga("set", "anonymizeIp", true);
-      ga("set", "transport", "beacon");
-      ga("send", "pageview");
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
-  </body>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments);
+    };
+    ga.q = [];
+    ga.l = +new Date();
+    ga("create", "UA-XXXXX-Y", "auto");
+    ga("set", "anonymizeIp", true);
+    ga("set", "transport", "beacon");
+    ga("send", "pageview");
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
 </html>
